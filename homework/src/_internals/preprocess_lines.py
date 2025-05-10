@@ -1,3 +1,3 @@
 def preprocess_lines(lines):
-    """Preprocess lines by stripping whitespace and converting to lowercase."""
-    return [line.strip().lower() for line in lines]
+    lines = [line.lower().strip() for line in lines]
+    return lines
