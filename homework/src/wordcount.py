@@ -12,7 +12,7 @@ def main():
     preprocessed_lines = preprocess_lines(lines)
     words = split_into_words(preprocessed_lines)
     word_counts = count_words(words)
-    write_word_counts(word_counts, output_folder)
+    write_word_counts(output_folder, word_counts)
 
     print(f"Input folder: {input_folder}")
     print(f"Output folder: {output_folder}")
